@@ -439,7 +439,7 @@ h1, h2, h3 { line-height: 1.25; letter-spacing: -0.025em; text-wrap: balance; }
 .area__origin { display: flex; flex-direction: column; gap: 10px; padding: 32px; background: var(--pine); color: var(--white); border-radius: 20px; }
 .area__label { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; font-weight: 700; color: var(--hivis); }
 .area__label svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; }
-.area__origin strong { font-size: 2.75rem; font-weight: 800; line-height: 1.15; letter-spacing: -0.03em; }
+.area__origin strong { font-size: 2rem; font-weight: 800; line-height: 1.2; letter-spacing: -0.03em; }
 .area__origin p { font-size: .96rem; color: var(--on-dark); }
 
 .routes { border-bottom: 1px solid var(--line); }
@@ -455,7 +455,7 @@ h1, h2, h3 { line-height: 1.25; letter-spacing: -0.025em; text-wrap: balance; }
 @media (max-width: 900px) { .area { grid-template-columns: 1fr; } }
 @media (max-width: 720px) {
   .area__origin { padding: 24px; }
-  .area__origin strong { font-size: 2.3rem; }
+  .area__origin strong { font-size: 1.8rem; }
   .route { grid-template-columns: 34px minmax(0, 1fr); padding: 20px 0; }
   .route p { grid-column: 2; }
   .route__name h3 { font-size: 1.24rem; }
